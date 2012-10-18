@@ -1,0 +1,6 @@
+[
+    {"command": "insert", "args": {"characters": "<%= %>"}},
+    {"command": "move", "args": {"by": "wordboundaries", "forward": false}},
+    {"command": "move", "args": {"by": "wordboundaries", "forward": false}},
+    {"command": "insert", "args": {"characters": " "}}
+]

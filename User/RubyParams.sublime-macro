@@ -1,0 +1,6 @@
+[
+    {"command": "insert", "args": {"characters": "params[:id]"}},
+    {"command": "move", "args": {"by": "wordboundaries", "forward": false}},
+    {"command": "move", "args": {"by": "wordboundaries", "forward": false}},
+    {"command": "expand_selection", "args": {"to": "word"}}
+]
