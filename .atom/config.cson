@@ -1,0 +1,24 @@
+"*":
+  core:
+    customFileTypes:
+      "source.ruby.rails": [
+        "rb"
+        "rabl"
+      ]
+      "text.html.ruby": [
+        "html.erb"
+      ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "railscast-theme"
+    ]
+  editor:
+    autoIndentOnPaste: false
+    invisibles: {}
+  "exception-reporting":
+    userId: "71da9b96-fdc6-59e1-6a7f-954c0bf403eb"
+  "markdown-table-formatter": {}
+  "one-dark-ui": {}
+  welcome:
+    showOnStartup: false
