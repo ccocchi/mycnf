@@ -20,55 +20,28 @@
   // background-color: whitesmoke;
 }
 
-atom-text-editor::shadow {
-  .entity.name.class.ruby,
-  .entity.name.module.ruby  {
-    text-decoration: none;
-    color: #ffc66d;
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+
+  .syntax--support.syntax--function.syntax--actionpack.syntax--rails {
+    color: #F1A1AE;
   }
 
-  .entity.other.inherited-class.ruby {
-    font-style: italic;
-    text-decoration: none;
-    color: #ffc66d;
+  .syntax--constant.syntax--other.syntax--symbol.syntax--hashkey.syntax--ruby {
+    color: #4ab1e6;
   }
 
-  .support.class.ruby {
-    color: #da4939;
-  }
-
-  .constant.other.symbol.hashkey.ruby,
-  .punctuation.definition.constant.hashkey.ruby {
-    color: #56b6c2;
-  }
-
-  .support.function.actionpack.rails {
-    color: #e6e1dc;
-  }
-
-  span.markup.git-commit {
-    display: block;
-    height: 21px;
-  }
-
-  .markup.deleted.git-commit {
-    background-color: #8b2d2d;
-  }
-
-  .markup.inserted.git-commit {
-    background-color: #3e614c;
-  }
-
-  .variable.scss, .source.css.scss .variable {
-    color: #d0d0ff;
-  }
-
-  .support.function.actionpack.rails {
-    color: #da4939;
+  .syntax--constant.syntax--other.syntax--symbol.syntax--ruby {
+    color: #56c288; // original: #56b6c2
   }
 }
 
-// To style other content in the text editor's shadow DOM, use the ::shadow expression
-atom-text-editor::shadow .cursor {
+// style UI elements inside atom-text-editor
+atom-text-editor .cursor {
   // border-color: red;
+  .support.function.actionpack.rails {
+    color: blue;
+  }
 }
