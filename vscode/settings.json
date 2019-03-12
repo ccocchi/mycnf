@@ -1,0 +1,53 @@
+{
+    "editor.tabSize": 2,
+    "editor.fontLigatures": true,
+    "editor.glyphMargin": false,
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "FiraCode-Light, Menlo, Monaco, 'Courier New', monospace",
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": "keyword.control.flow.js",
+          "settings": {
+            "foreground": "#f4df42"
+          }
+        },
+        {
+          "scope": [
+            "variable.object.property.js"
+            // meta.parameter.object-binding-pattern.js
+            // meta.parameters.js
+            // meta.arrow.js
+            // meta.object.member.js
+            // meta.objectliteral.js
+            // meta.var.expr.js
+          ],
+          "settings": {
+            "foreground": "#56c288"
+          }
+        },
+        // {
+        //   "scope": "meta.object-literal.key.js",
+        //   "settings": {
+        //     "foreground": "#98c379"
+        //   }
+        // },
+        {
+          "scope": "support.function.event-handler.js.jsx",
+          "settings": {
+            "foreground": "#e5c07b"
+          }
+        },
+        {
+          "scope": "variable.other.constant.js.jsx",
+          "settings": {
+            "foreground": "#e06c75"
+          }
+        }    
+
+        
+      ]
+    }
+}
