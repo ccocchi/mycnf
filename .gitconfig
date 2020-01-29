@@ -1,0 +1,29 @@
+[user]
+	name = ccocchi
+	email = cocchi.c@gmail.com
+[core]
+	editor = atom --wait
+[color]
+	ui 			= false
+	branch  = auto
+	diff    = auto
+	status  = auto
+[color "branch"]
+	current = yellow reverse
+	local   = yellow
+	remote  = green
+[color "diff"]
+	meta    = yellow bold
+	frag    = magenta bold
+	old     = red
+	new     = green
+[color "status"]
+	added   	= yellow
+	changed 	= green
+	untracked = cyan
+[alias]
+	co = checkout
+	br = branch
+	sw = switch
+[push]
+	default = simple
